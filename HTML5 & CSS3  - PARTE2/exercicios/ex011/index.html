@@ -15,6 +15,22 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem Flexível">
     </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--<audio src="midias/crossfade - cold.mp3" controls autoplay></audio>-->
+    <!--MP3 WAV OGG -->
+    <audio preload="metadata" autoplay controls>
+        <source src="midias/Track 1.wav" type="audio/mpeg">
+        <source src="midias/Track 1.wav" type="audio/wav"> 
+        <source src="midias/crossfade - cold.mp3" type="audio/mp3">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midias/crossfade - cold.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio><br>
+    <audio preload="metadata" autoplay controls>
+        <source src="midias/crossfade - cold.mp3" type="audio/mp3">
+        <source src="midias/crossfade - cold.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midias/crossfade - cold.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
     
 </body>
 </html>
